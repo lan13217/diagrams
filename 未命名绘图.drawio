@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T09:03:31.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.0" etag="Jk6927FVvFeLOl4BxwVP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T11:20:58.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="B3ms-YGsVzAGkd6XK-ND" version="21.3.0" type="github">
   <diagram name="第 1 页" id="xNQ5i8k7FciS-4auw5jx">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-1" value="Publisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-2" value="Aeron" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-3" value="Subscriber" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="150" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-4" value="发布消息" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="UIvtAnSlyS4AFWoasi8M-1" target="UIvtAnSlyS4AFWoasi8M-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-5" value="发送消息" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="UIvtAnSlyS4AFWoasi8M-2" target="UIvtAnSlyS4AFWoasi8M-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-6" value="响应ACK" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="UIvtAnSlyS4AFWoasi8M-3" target="UIvtAnSlyS4AFWoasi8M-2">
+          <mxGeometry x="0.245" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="231" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UIvtAnSlyS4AFWoasi8M-7" value="转发ACK" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="UIvtAnSlyS4AFWoasi8M-2" target="UIvtAnSlyS4AFWoasi8M-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
