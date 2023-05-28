@@ -1,14 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T14:19:05.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="p8ghGRNIIKufkw9dvV8J" version="21.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-28T14:42:37.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QNUATyAJWxu94DgQ_ZkI" version="21.3.4" type="github" pages="2">
   <diagram name="第 1 页" id="USofRMA4XZ6aipWn7kLh">
     <mxGraphModel dx="2261" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrgPPtpXRDeIr11iUTKz-14" target="FrgPPtpXRDeIr11iUTKz-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="-1100" width="330" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="-960" width="190" height="60" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="FrgPPtpXRDeIr11iUTKz-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="-930" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FrgPPtpXRDeIr11iUTKz-15" target="FrgPPtpXRDeIr11iUTKz-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -17,49 +19,71 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrgPPtpXRDeIr11iUTKz-15" target="FrgPPtpXRDeIr11iUTKz-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="-930" />
+              <mxPoint x="540" y="-990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-15" value="dataDispatcher" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="280" y="-960" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FrgPPtpXRDeIr11iUTKz-17" target="FrgPPtpXRDeIr11iUTKz-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="-1040" />
+              <mxPoint x="1000" y="-930" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-17" value="table1_partition0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="610" y="-1070" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FrgPPtpXRDeIr11iUTKz-18" target="FrgPPtpXRDeIr11iUTKz-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="-990" />
+              <mxPoint x="1000" y="-930" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-960" width="240" height="60" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-18" value="table1_partition1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-1020" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FrgPPtpXRDeIr11iUTKz-19" target="FrgPPtpXRDeIr11iUTKz-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="-810" />
+              <mxPoint x="1000" y="-930" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-19" value="table2_partition0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="610" y="-840" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrgPPtpXRDeIr11iUTKz-22" target="FrgPPtpXRDeIr11iUTKz-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrgPPtpXRDeIr11iUTKz-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-930" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-22" value="" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-160" y="-950" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FrgPPtpXRDeIr11iUTKz-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="-1080" width="330" height="300" as="geometry" />
+          <mxGeometry x="1140" y="-1020" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-34" value="接受消息数计数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-860" width="90" height="30" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-34" value="收到消息计数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-884" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-35" value="&lt;b&gt;统计对象&lt;br&gt;Hsp消息维度&lt;br&gt;消息：&lt;/b&gt;总数、分发队列中、处理中、已消费（正常、异常消息&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;，在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;/span&gt;、丢弃消息数（备状态）&lt;br&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;表维度&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分片&lt;/b&gt;&lt;b&gt;消息：&lt;/b&gt;总数、&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;消费&lt;/span&gt;队列中、处理中、已消费（正常，异常），在途（&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;）&lt;br&gt;&lt;b&gt;表数据记录数：&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;总数、&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;消费&lt;/span&gt;队列中、处理中、已消费（正常，异常），在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;异常消息&lt;/b&gt;&lt;br&gt;1、无法解码hsp消息&lt;br&gt;2、json解析异常消息&lt;br&gt;3、空数据消息计数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-884" width="280" height="464" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-35" value="&lt;b&gt;统计对象：&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Hsp消息、分片消息、分片数据行数&lt;/b&gt;&lt;b&gt;&lt;br&gt;Hsp消息维度&lt;br&gt;消息：&lt;/b&gt;总数、分发队列中、处理中、已消费（完成消费、异常消息&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;，在途（分发&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;b&gt;全部分片消息&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;：&lt;/b&gt;总数、消费队列中、处理中、已消费（正常，异常），在途（&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中）、丢弃分片消息数（备状态）&lt;br&gt;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;表数据记录数：&lt;/b&gt;总数、队列中、处理中、已消费（正常，异常），在途（&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;表维度&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分片&lt;/b&gt;&lt;b&gt;消息：&lt;/b&gt;总数、&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;消费&lt;/span&gt;队列中、处理中、已消费（正常，异常），在途（&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;）&lt;br&gt;&lt;b&gt;表数据记录数：&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;总数、&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;消费&lt;/span&gt;队列中、处理中、已消费（正常，异常），在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;异常消息&lt;/b&gt;&lt;br&gt;1、无法解码hsp消息&lt;br&gt;2、json解析异常消息&lt;br&gt;3、空数据消息计数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="-884" width="280" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-36" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分区表线程维度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分片&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;消息：&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;总数、消费队列中、处理中、已消费（正常，异常），在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中）、丢弃分片消息数（备状态）&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;表数据记录数：&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;总数、&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;消费&lt;/span&gt;队列中、处理中、已消费（正常，异常），在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;）&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-750" width="320" height="300" as="geometry" />
+        <mxCell id="FrgPPtpXRDeIr11iUTKz-36" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分区表线程维度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;分片&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;消息：&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;总数、消费队列中、处理中、已消费（正常，异常），在途（&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;队列中+处理中）、丢弃分片消息数（备状态）&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="610" y="-750" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FrgPPtpXRDeIr11iUTKz-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-1130" width="350" height="260" as="geometry" />
+        <mxCell id="Ov6hBhwBg-OBHm0w1pQP-1" value="AmiMessageHandle&lt;br&gt;onMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-960" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
